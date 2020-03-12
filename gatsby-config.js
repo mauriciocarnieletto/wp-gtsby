@@ -1,3 +1,5 @@
+const gatsbySourceWordpress = require('./config/gatsby-source-wordpress')
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -30,5 +32,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    gatsbySourceWordpress,
   ],
 }

@@ -9,14 +9,14 @@ const WordPressPageTemplate = ({ pageContext }) =>  {
     return (
       <Layout>
         <SEO title={post.title} />
+        <Link to="/wordpress-pages">Voltar para os posts</Link>
         <div>
           <div dangerouslySetInnerHTML={{__html: post.content }} />
         </div>
-        <Link to="/wordpress-pages">Voltar para os posts</Link>
       </Layout>
     )
     else
-        return <div>pppppppp</div>;
+        return <div>OOOOOOOooooooops :(</div>;
 }
 
 export default WordPressPageTemplate;
